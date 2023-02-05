@@ -1,0 +1,123 @@
+.navbar-toggler-icon{
+    color:#fff;
+}
+
+/* Footer */
+.rights{
+
+    color: #fff;
+    text-align: center;
+    margin-top: 6px;
+}
+footer p{
+    color: #fff;
+	display: inline;
+}
+footer .Github{
+	display: block;
+	margin-top: 20px;
+}
+
+.social{	
+    
+    text-align: center;
+}
+.social ul{
+    list-style: none;
+    display: inline;
+    margin-left: 10px;
+}
+.social ul li{
+    display: inline-block;
+    margin-left: 5px;
+}
+.social ul li a{
+    text-decoration: none;
+    color:white;
+    width:65px;
+}
+.social .fb{
+    background-color: rgb(70, 70, 170);
+    height: auto;
+    border-radius: 20%;
+    
+}
+.social .Twitt{
+    background-color: rgba(46, 142, 252, 0.87);
+    
+    height: auto;
+    border-radius: 20%;
+    
+}
+.social .You{
+    background-color: rgb(216, 16, 16);
+ 
+    height: auto;
+    border-radius: 20%
+    
+}
+
+.mr-3{
+    margin-left: 20px;
+}
+	
+.signIn{
+    background-color:#333;
+    height: 120px;
+    padding-top:30px;
+    padding-left: auto;
+    
+}
+.sigNIn input[type="submit"]{
+    height: 30px;
+    padding:auto;
+    width: 65px;
+    display: block;
+
+}
+.sigNIn input[type="text"],.sigNIn input[type="password"]{
+    height:30px;
+    margin-right:3px;
+    width:170px;
+    border-radius: 40px;
+    padding:auto;
+    display: inline-block;
+}
+
+
+
+@media(max-width:768px){
+
+    .signIn{
+        height:130px;
+    }
+    .sigNIn input[type="text"],.sigNIn input[type="password"]{
+        width:130px;
+    }
+    .sigNIn input{
+        display:block;
+        margin-bottom: 10px;
+    }
+    .google{
+        margin-bottom: 10px;
+    }
+
+    
+}
+
+
+
+
+
+/* the SIGNUP form  8888888888bjhhb*/
+.heading{
+    color: #fff;
+}
+
+.SIGNUP-FORM{
+    padding: 40px;
+    background-color: rgb(134, 103, 103);
+}
+.sigNUP{
+    width:300px;
+}

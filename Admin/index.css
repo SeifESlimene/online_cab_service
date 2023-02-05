@@ -1,0 +1,110 @@
+
+/* Admin.php */
+
+.col-md-6{
+    padding:30px;
+    color:white;
+    text-align: center;
+    border-radius: 30px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+
+/* Adminshow.php    navbar */
+*{
+	margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+body{
+	background-color: black
+}
+.SideBar{
+	position: fixed;
+	background-color: #4443e3;
+	width: 230px;
+	height: 100%;
+	line-height: 50px;
+
+	
+
+}
+.SideBar h2{
+	margin-left: 30%;
+}
+.SideBar ul{
+	list-style: none;
+}
+ul li{
+
+	border-top: 1px solid red;
+	border-bottom: 2px solid black;
+	margin-left: 20%;
+
+
+
+}
+li a{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	transition: 0.6s;
+	font-family: cursive;
+}
+li a:hover{
+    margin-left: 10px;
+    color: #fff;
+}
+.logout{
+    position: absolute;
+    top:0;
+    right:10px;
+    
+}
+ 
+
+
+/* setting the main area */
+.main{
+    margin-left: 190px;
+}
+
+
+/* The SIGNUP form */
+.div-signup form{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 220px;
+    background-color: rgb(199, 47, 47);
+    padding:20px;
+    border: 2px dotted burlywood;
+    border-radius: 50px;
+}
+
+
+
+/* The SIGNUP form INPUTS*/
+.div-signup form input{
+    height: 30px;
+    margin-bottom: 10px;
+    border: 0px solid gray;
+    border-radius: 20px;
+}
+
+
+/* The SIGNUP form SELECT tag*/
+select{
+    margin-bottom: 10px;
+}
+
+/* The SIGNUP form SUBMIT button*/
+.submit{
+    background-color: blue;
+    color:#fff;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 30px;
+}

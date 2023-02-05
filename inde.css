@@ -1,0 +1,167 @@
+
+
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html
+{
+    background-color: #f1f1f3;
+    color:#555;
+    font-family: 'lato','Arial',sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+/* The header */
+.header
+{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("main.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color:white;
+    width:100%;
+}
+.navbar{
+        
+    background-color:rgb(44, 38, 38);
+    width:100%;
+}
+.logo{
+    margin-bottom: -6px;
+}
+.bar{
+    color:#fff;
+}
+
+.main{
+    position: absolute;
+    top: 45%;
+    left: 30%;
+}
+
+
+@media (max-width: 568px){
+    .main{
+        top:20%;
+        left:0%;
+        font-size:18px;
+    }
+    .main h3{
+        font-size: 22px;
+
+    }
+    
+/* The header */
+.header
+{
+    height: 50vh;
+}
+
+}
+
+/* Header Done */
+
+/* Car Booking Section*/
+
+
+#services{
+    background-color:rgba(234, 237, 238, 0.315);
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+
+.specify{
+    height: 50px;
+    text-align: center;
+
+}
+.img{
+    list-style: none;
+    width:50px;
+    height:40px;
+    background-color:white;
+
+}
+#manual span{
+    color: #e67e22;
+    border: 3px solid #e67e22;
+    border-radius: 50%;
+
+    text-align: center;
+    font-size: 15px;
+    margin-right: 30px;
+    padding: 3px;
+}
+
+/* Dropdown menu*/
+.dropdown-menu{
+    border:none;
+    background-color: black;
+    margin-right:100px;
+    width:100px;
+}
+
+#working{
+    background-color:rgba(215, 215, 221, 0.123);
+    margin-top:60px;
+}
+
+/* Footer */
+.rights{
+
+    color: #fff;
+    text-align: center;
+    margin-top: 6px;
+}
+footer p{
+    color: #fff;
+	display: inline;
+}
+footer .Github{
+	display: block;
+	margin-top: 20px;
+}
+
+.social{	
+    
+    text-align: center;
+}
+.social ul{
+    list-style: none;
+    display: inline;
+    margin-left: 10px;
+}
+.social ul li{
+    display: inline-block;
+    margin-left: 5px;
+}
+.social ul li a{
+    text-decoration: none;
+    color:white;
+    width:65px;
+}
+.social .fb{
+    background-color: rgb(70, 70, 170);
+    height: auto;
+    border-radius: 20%;
+    
+}
+.social .Twitt{
+    background-color: rgba(46, 142, 252, 0.87);
+    
+    height: auto;
+    border-radius: 20%;
+    
+}
+.social .You{
+    background-color: rgb(216, 16, 16);
+ 
+    height: auto;
+    border-radius: 20%
+    
+}

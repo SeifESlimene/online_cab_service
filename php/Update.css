@@ -1,0 +1,111 @@
+
+.up{
+    height: 450px;
+    
+}
+
+/* The SIGNUP form DIV heading*/
+.up h4{
+    margin-left:70px;
+    font-size: 18px;
+}
+
+/* The SIGNUP form */
+.up .Signup{
+    margin-left: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(199, 47, 47);
+    width:200px;
+    padding:20px;
+    border: 2px dotted burlywood;
+    border-radius: 50px;
+}
+
+
+/* The SIGNUP form INPUTS*/
+.up form input{
+    height: 30px;
+    margin-bottom: 10px;
+    border: 0px solid gray;
+    border-radius: 20px;
+}
+/* The SIGNUP form SUBMIT button*/
+
+
+
+/* The SIGNUP form tITLE / Head */
+span{
+    margin-left:300px;
+}
+
+
+.up .logout{
+    width:100px;
+    height:30px;
+    background-color: blue;
+    margin-left:900px;
+    color:white;
+}
+
+
+
+
+
+
+
+
+/* Footer */
+.rights{
+
+    color: #fff;
+    text-align: center;
+    margin-top: 6px;
+}
+footer p{
+    color: #fff;
+	display: inline;
+}
+footer .Github{
+	display: block;
+	margin-top: 20px;
+}
+
+.social{	
+    
+    text-align: center;
+}
+.social ul{
+    list-style: none;
+    display: inline;
+    margin-left: 10px;
+}
+.social ul li{
+    display: inline-block;
+    margin-left: 5px;
+}
+.social ul li a{
+    text-decoration: none;
+    color:white;
+    width:65px;
+}
+.social .fb{
+    background-color: rgb(70, 70, 170);
+    height: auto;
+    border-radius: 20%;
+    
+}
+.social .Twitt{
+    background-color: rgba(46, 142, 252, 0.87);
+    
+    height: auto;
+    border-radius: 20%;
+    
+}
+.social .You{
+    background-color: rgb(216, 16, 16);
+ 
+    height: auto;
+    border-radius: 20%
+    
+}

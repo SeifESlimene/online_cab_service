@@ -1,0 +1,146 @@
+.navbar-toggler-icon{
+    color:white;
+}
+
+
+li .active{
+	font-size: 18px;
+}
+
+.dropdown-menu{
+	border:0px;
+}	
+
+
+/* Sign In form  */
+
+.form{
+	height: 80px;
+	background-color: blue !important;
+
+}
+.sign-in{
+	margin-top: 20px;
+}
+.sign-in input{
+	margin-left: 3px;
+	height: 30px;
+	border-radius: 20px;
+	border:none;
+}
+
+
+/* Sign In form  */
+.div-signup{
+	background-color: grey;
+}
+.grey{
+    background-color: grey;;
+}
+
+
+/* The SIGNUP form */
+.div-signup form{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 220px;
+    background-color: rgb(199, 47, 47);
+    padding:20px;
+    border: 2px dotted burlywood;
+    border-radius: 50px;
+}
+
+
+
+/* The SIGNUP form INPUTS*/
+.div-signup form input{
+    height: 30px;
+    margin-bottom: 10px;
+    border: 0px solid gray;
+    border-radius: 20px;
+}
+
+
+/* The SIGNUP form SELECT tag*/
+select{
+    margin-bottom: 10px;
+}
+
+/* The SIGNUP form SUBMIT button*/
+.submit{
+    color:#fff;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 30px;
+}
+
+
+
+
+
+#map{
+    width:90%;
+    height: 80%;
+}
+
+
+
+
+
+/* Footer */
+footer{
+    margin-bottom:0px;
+}
+.rights{
+
+    color: #fff;
+    text-align: center;
+    margin-top: 6px;
+}
+footer p{
+    color: #fff;
+	display: inline;
+}
+footer .Github{
+	display: block;
+	margin-top: 20px;
+}
+
+.social{	
+    
+    text-align: center;
+}
+.social ul{
+    list-style: none;
+    display: inline;
+    margin-left: 10px;
+}
+.social ul li{
+    display: inline-block;
+    margin-left: 5px;
+}
+.social ul li a{
+    text-decoration: none;
+    color:white;
+    width:65px;
+}
+.social .fb{
+    background-color: rgb(70, 70, 170);
+    height: auto;
+    border-radius: 20%;
+    
+}
+.social .Twitt{
+    background-color: rgba(46, 142, 252, 0.87);
+    
+    height: auto;
+    border-radius: 20%;
+    
+}
+.social .You{
+    background-color: rgb(216, 16, 16);
+ 
+    height: auto;
+    border-radius: 20%
+    
+}

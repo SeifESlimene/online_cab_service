@@ -1,0 +1,42 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(99, 99, 158);
+}
+
+
+.SignUP{
+    width:80%;
+    margin-left: 100px;
+}
+.sigNUP input{
+    border:0px solid blue;
+    width: 400px;
+    height: 30px;
+    margin-top: 20px
+}
+.sigNUP .submit{
+    width: 80px;
+    background-color:blue;
+    color:#fff;
+    margin-left:10px;
+    margin-right:10px;
+    font-size: 18px;
+}
+
+.sigNUP label{
+    margin-top: 40px;
+}
+
+.logout{
+    position: absolute;
+    top:100px;
+    right:20px;
+    height: 30px;
+    background-color:blue;
+    color:white;
+    width:50px;
+}
